@@ -48,6 +48,16 @@ body {
     margin-left: 25px;
 }
 
+.hero {
+    /* Define a class that creates an image banner without any inner html content required*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 a {
     /* Styles font for anchor elements; Used for nav links */
     color: #ffffff;
@@ -59,15 +69,6 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    /* Define a class that creates an image banner without any inner html content required*/
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
 
 .float-left {
     /* Define class to float left; Used for images in alternating main content blocks */
