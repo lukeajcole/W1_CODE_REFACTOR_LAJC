@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* Set background color of main content body */
+    background-color: #d9dcd6;
+}
+
+.header {
+    /* Define header class; Styles font, colors, and padding */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    /* Define "h1" header element within a header class; what is inline-block?  */
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    /* Define seo class to color text within header class and h1 heading*/
+    color: #d9dcd6;
+}
+
+.header nav {
+    /* Define nav element within header class; right justify elements and set font */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    /* creates non-bullet list elements inside header class and nav element  */
+    list-style-type: none;
+}
+
+.header nav ul li {
+    /* Sets list elements in a line for an un ordered list within nav element and header class */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /* Styles font for anchor elements; Used for nav links */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /* styles font for paragraphs; used for all non-head text */
+    font-size: 16px;
+}
+
+.hero {
+    /* Define a class that creates an image banner without any inner html content required*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    /* Define class to float left; Used for images in alternating main content blocks */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* Define class to float right; Used for images in alternating main content blocks */
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    /* Define class for main content section; Sets position, width, and margin */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.content-block{
+    /* Define sections within main content block; Creates distinct block with spacing */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-block img {
+    /* Define image element size within content-block class */
+    max-height: 200px;
+}
+
+.content-block h2 {
+    /* Define heading element within content-block class; Creates bottom spacing and set font size */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    /* Define class for supplemental section; Floats entire section to the right of the main content block with font and different color  */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-items {
+        /* Define class for sections within the supplemental block; creates spacing and tex color but does not make distinct blocks */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-items h3 {
+    /* Define class fro sections within the benefit-items class; Centers and gives bottom spacing */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-items img {
+    /* Define image element width and positioning within benefit-items class; Gives each image own block to indicate a new benefit */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    /* Defines footer class for website meta data */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    /* Define element within footer; sets font size */
+    font-size: 20px;
+}
